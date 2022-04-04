@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.BoardInit">
+
+    <TextView
+        android:id="@+id/txtTitleBoardInit"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints=""
+        android:background="#3125DDF4"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:hint="@string/title2BoardInit"
+        android:text="@string/title2BoardInit"
+        android:textAppearance="@style/fontTitles"
+        android:textColor="#504F49"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtShowNumberId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:autofillHints=""
+        android:clickable="false"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:text="@string/txtTemplateData"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtStrongId"
+        app:layout_constraintTop_toTopOf="@+id/txtStrongId" />
+
+    <TextView
+        android:id="@+id/txtShowName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:autofillHints=""
+        android:clickable="false"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:text="@string/txtTemplateData"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtStrongName"
+        app:layout_constraintTop_toTopOf="@+id/txtStrongName" />
+
+    <TextView
+        android:id="@+id/txtStrongId"
+        android:layout_width="121dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:minHeight="48dp"
+        android:text="@string/showImportantIdentificaction"
+        android:textAppearance="@style/fontSubtitle"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtStrongName" />
+
+    <TextView
+        android:id="@+id/txtStrongName"
+        android:layout_width="77dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:minHeight="48dp"
+        android:text="@string/showImportantName"
+        android:textAppearance="@style/fontSubtitle"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleBoardInit" />
+
+    <TextView
+        android:id="@+id/txtTitle2BoarInit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints=""
+        android:clickable="false"
+        android:ems="10"
+        android:text="@string/btnSolicite"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintEnd_toEndOf="@+id/txtTitleBoardInit"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txtTitleBoardInit"
+        app:layout_constraintTop_toBottomOf="@+id/txtShowNumberId" />
+
+    <TextView
+        android:id="@+id/txtInfoBoardInit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints=""
+        android:minHeight="48dp"
+        android:text="@string/infoToSelectCite"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle2BoarInit" />
+
+    <Spinner
+        android:id="@+id/spinnerShowCites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="#1D00BCD4"
+        android:contentDescription="@string/infoToSelectCite"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/txtInfoBoardInit"
+        app:layout_constraintStart_toStartOf="@+id/txtInfoBoardInit"
+        app:layout_constraintTop_toBottomOf="@+id/txtInfoBoardInit"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/btnAddCite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="48dp"
+        android:background="#00BCD4"
+        android:text="@string/btnSolicite"
+        android:textColor="#455A64"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerShowCites"
+        app:layout_constraintStart_toStartOf="@+id/spinnerShowCites"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+</android.support.constraint.ConstraintLayout>

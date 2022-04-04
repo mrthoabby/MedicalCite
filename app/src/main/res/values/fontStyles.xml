@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="fontTitles">
+        <item name="android:ems">10</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+
+    <style name="fonotInfo">
+        <item name="android:ems">10</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:inputType">textMultiLine|textPersonName</item>
+        <item name="android:text">@string/showInfoMain</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="fontSubtitle">
+        <item name="android:ems">10</item>
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+    </style>
+</resources>

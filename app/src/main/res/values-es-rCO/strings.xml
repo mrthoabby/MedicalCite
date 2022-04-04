@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MedicalCite</string>
+    <string name="titleWelcome">Te doy la bienvenida a Medical Cite</string>
+    <string name="txtInfoPolices">Aceptar política de tratamiendo de datos personales.</string>
+    <string name="showImportantName">Nombre :</string>
+    <string name="showImportantIdentificaction">Identificación :</string>
+    <string name="title2BoardInit">Agendar cita medica</string>
+    <string name="btnSolicite">Solicitar</string>
+    <string name="txtTemplateData">DataSource</string>
+    <string name="showInfoMain">Te damos la bienvenida a tu plataforma medica donde puedes agendar tu cita medica desde tu teléfono</string>
+    <string name="showTextLogin">Ingresa tu número de identificación</string>
+    <string name="placeHolderInput">número de identificación</string>
+    <string name="placeHolderBtnLogin">Iniciar sesión</string>
+    <string name="radioUserSelect">Usuario</string>
+    <string name="infoToSelectCite">Selecciona una cita medica</string>
+    <string name="placeHolderPassword">Contraseña</string>
+    <string name="alerfillFields">Por favor completa todos los campos</string>
+    <string name="alertUserNoRegist">Usuario no registrado</string>
+    <string name="alertSelectTipeUser">Debes seleccionar un tipo de usuario</string>
+    <string name="showCurrentPatients">Pacientes por atender</string>
+    <string name="btnShowPatients">Ver pacientes</string>
+    <string name="informationPateienList">Aquí puedes ver el listados de las personas que han programado una cita medico contigo</string>
+    <string name="showSucces">Éxito</string>
+    <string name="infoSucces">Tu solicitud fue llevada a cabo con éxito puedes tomar capture a esta pantalla para conservar tu recordatorio</string>
+</resources>

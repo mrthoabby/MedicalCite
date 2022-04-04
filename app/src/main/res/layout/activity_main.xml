@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image_logo" />
+
+    <TextView
+        android:id="@+id/plaintxtTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:background="#0C00BCD4"
+        android:fontFamily="sans-serif"
+        android:hint="@string/titleWelcome"
+        android:text="@string/titleWelcome"
+        android:textAlignment="center"
+        android:textAppearance="@style/fontTitles"
+        android:textColor="#FA3F4445"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/plaintxtInfoafterTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:autofillHints=""
+        android:text="@string/showInfoMain"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plaintxtTitle" />
+
+    <EditText
+        android:id="@+id/inputNumberUserId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:hint="@string/placeHolderInput"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName3"
+        app:layout_constraintHorizontal_bias="0.735"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/placeHolderPassword"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="@+id/inputNumberUserId"
+        app:layout_constraintStart_toStartOf="@+id/inputNumberUserId"
+        app:layout_constraintTop_toBottomOf="@+id/inputNumberUserId" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#00BCD4"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/placeHolderBtnLogin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/chekPolices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioIsDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:padding="8dp"
+            android:text="@string/radioDoctorSelect"
+            android:textAppearance="@style/fonotInfo" />
+
+        <RadioButton
+            android:id="@+id/radioIsUser"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:padding="8dp"
+            android:text="@string/radioUserSelect"
+            android:textAppearance="@style/fonotInfo" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/chekPolices"
+        style="@style/fonotInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:minHeight="48dp"
+        android:text="@string/txtInfoPolices"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName3"
+        style="@style/fonotInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:autofillHints=""
+        android:minHeight="48dp"
+        android:text="@string/showTextLogin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plaintxtInfoafterTitle" />
+
+</android.support.constraint.ConstraintLayout>

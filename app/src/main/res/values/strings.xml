@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MedicalCite</string>
+    <string name="titleWelcome">Welcome to Medical Cite</string>
+    <string name="txtInfoPolices">Accept personal data processing policy.</string>
+    <string name="showImportantName">Name :</string>
+    <string name="showImportantIdentificaction">identification :</string>
+    <string name="title2BoardInit">Schedule a medical appointment</string>
+    <string name="btnSolicite">Request</string>
+    <string name="txtTemplateData">DataSource</string>
+    <string name="showInfoMain">Welcome to your medical platform where you can book your medical appointment from your phone</string>
+    <string name="showTextLogin">Please enter your identification number</string>
+    <string name="placeHolderInput">identification number</string>
+    <string name="placeHolderBtnLogin">sign in</string>
+    <string name="radioUserSelect">User</string>
+    <string name="radioDoctorSelect" translatable="false">Doctor</string>
+    <string name="infoToSelectCite">Select a medical appointment</string>
+    <string name="placeHolderPassword">Password</string>
+    <string name="alerfillFields">Please fill in all fields</string>
+    <string name="alertUserNoRegist">Unregistered user</string>
+    <string name="alertSelectTipeUser">You must select a user type</string>
+    <string name="showCurrentPatients">Patients to be attended</string>
+    <string name="btnShowPatients">View interns</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="informationPateienList">Here you can see the list of people who have scheduled a medical appointment with you.</string>
+    <string name="showSucces">Success</string>
+    <string name="infoSucces">Your request was successfully completed you can take a screenshot of this screen to keep your reminder</string>
+</resources>
